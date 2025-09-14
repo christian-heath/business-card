@@ -130,10 +130,11 @@
 
     /* Buttons */
     .actions {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
       gap: 12px;
-      justify-content: center;
-      flex-wrap: wrap;
+      max-width: 320px;
+      margin: 0 auto;
     }
 
     .btn {
